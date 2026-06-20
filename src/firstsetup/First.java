@@ -5,6 +5,7 @@ import javafx.stage.Stage;
 public class First extends Application {
     @Override
     public void start(Stage stage) throws Exception {
+        stage.setTitle("Hello");
         stage.show();
     }
 
